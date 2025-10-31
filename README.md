@@ -59,7 +59,7 @@ ecs/
   system.py
   resources.py
   world.py
-example_usage.py   # optional demo
+example_usage.py
 ```
 
 ---
