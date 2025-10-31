@@ -1,9 +1,10 @@
 # ecs/system.py
 
 from abc import ABC, abstractmethod
-from typing import List, Optional
+from typing import TYPE_CHECKING, List, Optional
 
-from .world import World
+if TYPE_CHECKING:
+    from .world import World
 
 
 class System(ABC):

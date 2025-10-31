@@ -1,6 +1,10 @@
 # ecs/__init__.py
-from .errors import (ComponentAlreadyExists, ComponentNotFound, ECSException,
-                     EntityNotFound)
+from .errors import (
+    ComponentAlreadyExists,
+    ComponentNotFound,
+    ECSException,
+    EntityNotFound,
+)
 from .resources import Resources
 from .system import System
 from .world import World

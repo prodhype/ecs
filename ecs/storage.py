@@ -3,9 +3,15 @@
 from typing import Iterator, Optional
 
 from .errors import ComponentAlreadyExists, ComponentNotFound
-from .types import (ComponentInstance, ComponentType, EntityId,
-                    IndexByComponent, IndexByEntity, StoreByComponent,
-                    StoreByEntity)
+from .types import (
+    ComponentInstance,
+    ComponentType,
+    EntityId,
+    IndexByComponent,
+    IndexByEntity,
+    StoreByComponent,
+    StoreByEntity,
+)
 
 
 class ComponentStore:

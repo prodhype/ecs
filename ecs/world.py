@@ -7,8 +7,7 @@ from .errors import ComponentNotFound, EntityNotFound
 from .resources import Resources
 from .storage import ComponentStore
 from .system import Scheduler, System
-from .types import (T1, T2, T3, T4, T5, ComponentInstance, ComponentType,
-                    EntityId)
+from .types import T1, T2, T3, T4, T5, ComponentInstance, ComponentType, EntityId
 
 
 class World:
