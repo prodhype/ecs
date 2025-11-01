@@ -68,7 +68,7 @@ example_usage.py
 
 ### World
 
-Central façade for:
+Central facade for:
 
 * Entity lifecycle (`create_entity()`, `destroy_entity()`, `is_alive()`).
 * Component operations (`add_component()`, `upsert_component()`, `remove_component()`, `get_component()`, `require_component()`, `has_component()`).
