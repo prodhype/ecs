@@ -174,7 +174,6 @@ for eid, pos, vel in world.view(Position, Velocity):
 
 ## Known Limitations / TODO
 
-* **Double start on hot-add:** Adding a system after `world.start()` currently calls `System.start()` **twice** (once via `Scheduler.add`, once in `World.add_system`). Fix by removing one of those start calls.
 * **No removal callbacks:** There’s no hook for component removal or entity destruction beyond `System.stop()`.
 * **No "without" queries:** Only conjunctive "has all" queries are supported.
 

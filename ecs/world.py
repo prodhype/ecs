@@ -137,8 +137,6 @@ class World:
 
     def add_system(self, system: System) -> None:
         self._scheduler.add(system)
-        if self._started:
-            system.start(self)
 
     def remove_system(self, system: System) -> bool:
         return self._scheduler.remove(system)
